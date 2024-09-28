@@ -49,7 +49,7 @@ namespace JournalApp
 
                     case "3":  
                         // Save the journal to a file  
-                        Console.Write("Enter filename to save (CSV format): ");  
+                        Console.Write("Enter filename to save (.txt/.cs1v format): ");  
                         string saveFileName = Console.ReadLine();  
                         journal.SaveToFile(saveFileName);  
                         Console.WriteLine("Journal saved.\n");  
@@ -57,7 +57,7 @@ namespace JournalApp
 
                     case "4":  
                         // Load the journal from a file  
-                        Console.Write("Enter filename to load (CSV format): ");  
+                        Console.Write("Enter filename to load (.txt/.csv format): ");  
                         string loadFileName = Console.ReadLine();  
                         journal.LoadFromFile(loadFileName);  
                         Console.WriteLine("Journal loaded.\n");  
