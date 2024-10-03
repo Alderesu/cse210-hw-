@@ -1,4 +1,4 @@
-namespace YourProject.Models  
+namespace ScriptureMemorizer
 {  
     public class Word  
     {  

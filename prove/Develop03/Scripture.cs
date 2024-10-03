@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;  
 using System.Linq;  
 
-namespace YourProject.Models  
+namespace ScriptureMemorizer
 {  
     public class Scripture  
     {  

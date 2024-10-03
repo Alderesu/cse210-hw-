@@ -1,6 +1,6 @@
 using System;  
 
-namespace YourProject.Models  
+namespace ScriptureMemorizer
 {  
     public class Reference  
     {  

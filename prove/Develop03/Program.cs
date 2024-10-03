@@ -1,7 +1,6 @@
 using System;  
-using YourProject.Models;  
 
-namespace YourProject  
+namespace ScriptureMemorizer  
 {  
     public class Program  
     {  
@@ -16,6 +15,7 @@ namespace YourProject
             {  
                 Console.Clear();  
                 Console.WriteLine(scripture.GetDisplayText());  
+                Console.WriteLine("");
                 Console.WriteLine("Type 'next' for a new scripture, or press Enter to hide random words, or type 'quit' to exit:");  
 
                 string input = Console.ReadLine();  
