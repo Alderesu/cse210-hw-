@@ -7,7 +7,7 @@ namespace ScriptureMemorizer
         public static void Main()  
         {  
             // Load scriptures from a file  
-            string filePath = @"C:\Users\Kaith\Downloads\STI\C# BYU-I\cse210-hw-\prove\Develop03\scriptures.txt"; // Path to your scripture file  
+            string filePath = "scriptures.txt"; 
             ScriptureLibrary library = new ScriptureLibrary(filePath);  
             Scripture scripture = library.GetRandomScripture();  
 
