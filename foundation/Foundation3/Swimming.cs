@@ -23,7 +23,7 @@ namespace ExerciseTrackingProgram
 
         public override string GetSummary()
         {
-            return $"{Date:dd MMM yyyy} Swimming ({Minutes} min) - Distance {GetDistance():F1} km, Speed {GetSpeed():F1} kph, Pace: {GetPace():F2} min per km";
+            return $"{Date:dd MMM yyyy} Swimming ({Minutes} min) - Distance {GetDistance():F1} km, Speed {GetSpeed():F1} kph, Pace: {GetPace():F1} min per km";
         }
     }
 }
